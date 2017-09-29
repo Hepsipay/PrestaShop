@@ -1,0 +1,64 @@
+.hepsipay_payment_module .checkout_form{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+#payment_card_number_wrap {position: relative;}
+#payment_card_number_loading {position: absolute;top:0;bottom: 0;right:0;margin:auto;display:none;}
+
+.install_body_label {
+    float: left;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #d2d2d2;
+    line-height: 40px;
+}
+
+.installment_row { /* padding-top: 10px;*/
+}
+
+.install_body_label.installment_radio, .installmet_head .install_head_label.add_space {
+    height: 40px;
+    text-align: center;
+    width: 10%;
+    line-height: 40px;
+}
+
+#installment_table_id {
+    background-color: #eee;
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+.installmet_head .install_head_label {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #d2d2d2;
+}
+
+.installment_body, .installment_footer {
+    clear: both;
+}
+
+.toatl_label {
+    display: none;
+}
+
+.hepsipay_payment_error {border: 1px solid #f13340; color: #f13340;background-color:#fff1f2;margin:20px 0;padding:10px;}
+
+#payment_card_images img {
+    width: 45px;
+}
+.card-date-select {
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 1%;
+    width: 48% !important;
+}
